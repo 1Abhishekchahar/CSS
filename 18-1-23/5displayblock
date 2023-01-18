@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <style>
+            span{
+                width: 300px;
+                height: 200px;
+                color: rgb(248, 244, 7);
+                background-color: rgb(80, 112, 255);
+                display: block;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <span>Welcome to CSS</span>
+        <span>Welcome to HTML </span>
+    </body>
+</html>
