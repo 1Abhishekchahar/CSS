@@ -1,0 +1,43 @@
+<html>
+    <haed>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .header{grid-area: header;}
+            .sidebar{grid-area: sidebar;}
+            .footer{grid-area: footer;}
+            .main{grid-area: main;}
+            .container{
+                display: grid;
+                grid-template-areas: 'header header header header'
+
+'sidebar main main main'
+
+'footer footer footer footer';
+                gap: 50px;
+            }
+            .header,.footer{
+                background-color: coral;
+                height: 100px;
+            }
+            .sidebar{
+                background-color: cornflowerblue;
+                height: 600;
+            }
+            .main{
+                background-color: green;
+                height: 600px;
+            }
+        </style>
+    </haed>
+    <body>
+        <div class="container">
+            <div class="header"></div>
+            <div class="sidebar"></div>
+            <div class="main"></div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>
